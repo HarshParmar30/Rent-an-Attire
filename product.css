@@ -1,0 +1,145 @@
+
+html{
+    padding: 0;
+  }
+body{
+    background : #f7f5e9;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+  }
+h1,a{
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+h1{
+      font-weight: 200;
+  }
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  li.right {float: right;}
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+ 
+  .product {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  .row {margin: 0 -5px;
+    padding: 0 10px}
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width: 600px) {
+    .product {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  h1{
+    font-weight: 200;
+}
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+
+  *{
+    margin : 0;
+    padding :1rem;
+  }
+html{
+    padding: 0;
+    margin: 0;
+  }
+body{
+    background : #f7f5e9;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+h1,a{
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+h1{
+      font-weight: 200;
+  }
+
+
+a{
+    text-decoration: none;
+}
+#mainname{
+    background :  #bfb48f; 
+    color :#040505 ;
+    position: sticky;
+    overflow: hidden;
+  } 
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+li {
+    float: left;
+  }
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+li a:hover {
+    background-color: #111;
+    text-decoration: none;
+  }
